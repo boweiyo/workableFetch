@@ -51,11 +51,10 @@
     NSData *jsonData = [responseString dataUsingEncoding:NSUTF8StringEncoding];
     
     id allDataDictionary = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
-    NSMutableArray *result = [[NSMutableArray alloc]init];
     
-    if ([allDataDictionary isKindOfClass:[NSDictionary class]]){ //Added instrospection as suggested in comment.
+    if ([allDataDictionary isKindOfClass:[NSDictionary class]]){
         NSArray *meetup = allDataDictionary[@"results"];
-        if ([meetup isKindOfClass:[NSArray class]]){//Added instrospection as suggested in comment.
+        if ([meetup isKindOfClass:[NSArray class]]){
             
             for (NSDictionary *dictionary in meetup) {
                 Phone *temp= [[Phone alloc] init];
@@ -103,7 +102,7 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
     
-    Phone *temp = [[Phone alloc]init];
+    Phone *temp = resultList[indexPath.row];
 
 //    self.testLabel.text = @"testing";
     
