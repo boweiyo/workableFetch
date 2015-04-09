@@ -14,6 +14,7 @@
 		84E671F91AD5371A00980C5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E671F81AD5371A00980C5A /* Images.xcassets */; };
 		84E671FC1AD5371A00980C5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E671FA1AD5371A00980C5A /* LaunchScreen.xib */; };
 		84E672081AD5371A00980C5A /* WorkingWithClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E672071AD5371A00980C5A /* WorkingWithClassTests.m */; };
+		84E672131AD5377700980C5A /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E672121AD5377700980C5A /* Phone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		84E672011AD5371A00980C5A /* WorkingWithClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E672061AD5371A00980C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E672071AD5371A00980C5A /* WorkingWithClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkingWithClassTests.m; sourceTree = "<group>"; };
+		84E672111AD5377700980C5A /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		84E672121AD5377700980C5A /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				84E671F81AD5371A00980C5A /* Images.xcassets */,
 				84E671FA1AD5371A00980C5A /* LaunchScreen.xib */,
 				84E671EB1AD5371900980C5A /* Supporting Files */,
+				84E672111AD5377700980C5A /* Phone.h */,
+				84E672121AD5377700980C5A /* Phone.m */,
 			);
 			path = WorkingWithClass;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E672131AD5377700980C5A /* Phone.m in Sources */,
 				84E671F41AD5371A00980C5A /* ViewController.m in Sources */,
 				84E671F11AD5371900980C5A /* AppDelegate.m in Sources */,
 				84E671EE1AD5371900980C5A /* main.m in Sources */,
